@@ -5,8 +5,9 @@ from typing import Tuple
 
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """
-    function takes 2 integers, the start index and the end index corresponding
-    to the range of indexes to return in a list for those particular pagination.
+    function takes 2 integers, the start index and
+    the end index correspondingto the range of indexes
+    to return in a list for those particular pagination.
 
     Args:
         page (int): the start index
@@ -14,6 +15,5 @@ def index_range(page: int, page_size: int) -> Tuple[int, int]:
 
     Return: a tuple
     """
-
     page = (page - 1) * page_size
     return (page, page + page_size)
