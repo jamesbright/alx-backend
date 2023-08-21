@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """simple helper function"""
-
 from typing import Tuple
 
 
