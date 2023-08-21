@@ -3,6 +3,7 @@
 from typing import Tuple
 
 
+
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """
     function takes 2 integers, the start index and the end index corresponding
